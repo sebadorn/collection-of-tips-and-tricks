@@ -3,7 +3,7 @@
 cd /usr/lib/flashplugin-installer
 sudo perl -pi.bak -e 's/libvdpau/lixvdpau/g' libflashplayer.so
 
-# Problem: If hardware accelartion is enabled,
+# Problem: If hardware acceleration is enabled,
 # YouTube videos that use Flash are blueish.
 
 # Fix: Something something wrong or broken lib, remove it.
