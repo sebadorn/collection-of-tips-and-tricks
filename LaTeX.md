@@ -8,6 +8,10 @@
 
     \,
 
+### Non-breaking hyphen
+
+    \mbox{-}
+
 ### Mixing one-column and two-column
 
     \usepackage{multicol}
