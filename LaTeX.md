@@ -27,3 +27,9 @@
 
     \usepackage[hyphens]{url}
 
+### Units in math equations
+
+    \newcommand{\unit}[1]{\ensuremath{\, \mathrm{#1}}}
+
+Source: [vemod.net/typesetting-units-in-latex](http://vemod.net/typesetting-units-in-latex)
+
