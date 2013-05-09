@@ -38,3 +38,11 @@ Source: [catswhocode.com/blog/19-ffmpeg-commands-for-all-needs](http://www.catsw
 
 Depending on the setting for the locales, MeshLab may mix up points and commas in float values.
 
+### Find out CPU cache size, level and type
+
+    cat /sys/devices/system/cpu/cpu\*/cache/index\*/size
+    cat /sys/devices/system/cpu/cpu\*/cache/index\*/level
+    cat /sys/devices/system/cpu/cpu\*/cache/index\*/type
+
+Source: [stackoverflow.com/a/1957576](http://stackoverflow.com/a/1957576)
+
