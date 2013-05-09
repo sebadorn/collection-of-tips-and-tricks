@@ -40,9 +40,9 @@ Depending on the setting for the locales, MeshLab may mix up points and commas i
 
 ### Find out CPU cache size, level and type
 
-    cat /sys/devices/system/cpu/cpu\*/cache/index\*/size
-    cat /sys/devices/system/cpu/cpu\*/cache/index\*/level
-    cat /sys/devices/system/cpu/cpu\*/cache/index\*/type
+    cat /sys/devices/system/cpu/cpu*/cache/index*/size
+    cat /sys/devices/system/cpu/cpu*/cache/index*/level
+    cat /sys/devices/system/cpu/cpu*/cache/index*/type
 
 Source: [stackoverflow.com/a/1957576](http://stackoverflow.com/a/1957576)
 
