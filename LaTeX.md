@@ -33,3 +33,10 @@
 
 Source: [vemod.net/typesetting-units-in-latex](http://vemod.net/typesetting-units-in-latex)
 
+### Degree symbol
+
+    \usepackage{gensymb}
+    \degree
+
+Source: [anthony.liekens.net/index.php/LaTeX/DegreesNotation](http://anthony.liekens.net/index.php/LaTeX/DegreesNotation)
+
