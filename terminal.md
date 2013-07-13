@@ -24,10 +24,6 @@ Source: [catswhocode.com/blog/19-ffmpeg-commands-for-all-needs](http://www.catsw
 
     env WINEPREFIX=~/.PlayOnLinux/wineprefix/<<NAME>>/ winetricks
 
-### PhotoShop CS4 needs the following packages in WINE
-
-    msxml6 gdiplus gecko vcrun2005 ie6
-
 ### Disable Swap for all devices
 
     sudo swapoff -a
@@ -52,4 +48,8 @@ Source: [stackoverflow.com/a/1957576](http://stackoverflow.com/a/1957576)
 
 With `-n` you can first make a test run to see the would-be result.  
 Source: [tips.webdesign10.com/how-to-bulk-rename-files-in-linux-in-the-terminal](http://tips.webdesign10.com/how-to-bulk-rename-files-in-linux-in-the-terminal)
+
+### Manually install fonts
+
+Move the font files to `/usr/share/fonts` and then the sub-directory that fits the file extension, like `truetype`. Then call `fc-cache`.
 
