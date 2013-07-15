@@ -53,3 +53,9 @@ Source: [tips.webdesign10.com/how-to-bulk-rename-files-in-linux-in-the-terminal]
 
 Move the font files to `/usr/share/fonts` and then the sub-directory that fits the file extension, like `truetype`. Then call `fc-cache`.
 
+### Prevent service from autostarting
+
+    sudo update-rc.d -f <service> remove
+
+Source: [askubuntu.com/questions/170640/how-to-disable-apache2-server-from-auto-starting-upon-boot-up](http://askubuntu.com/questions/170640/how-to-disable-apache2-server-from-auto-starting-upon-boot-up)
+
