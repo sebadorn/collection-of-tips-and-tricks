@@ -59,3 +59,9 @@ Move the font files to `/usr/share/fonts` and then the sub-directory that fits t
 
 Source: [askubuntu.com/questions/170640/how-to-disable-apache2-server-from-auto-starting-upon-boot-up](http://askubuntu.com/questions/170640/how-to-disable-apache2-server-from-auto-starting-upon-boot-up)
 
+### Search installed packages
+
+    dpkg -l | grep '<searchterm>'
+
+Source: [superuser.com/a/191714](http://superuser.com/a/191714)
+
