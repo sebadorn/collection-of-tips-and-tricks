@@ -65,3 +65,9 @@ Source: [askubuntu.com/questions/170640/how-to-disable-apache2-server-from-auto-
 
 Source: [superuser.com/a/191714](http://superuser.com/a/191714)
 
+### Fix Google Chrome on Ubuntu 13.04
+
+    sudo ln -sf /lib/x86_64-linux-gnu/libudev.so.1 /lib/x86_64-linux-gnu/libudev.so.0
+
+Source: [askubuntu.com/a/306268](http://askubuntu.com/a/306268)
+
