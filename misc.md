@@ -13,7 +13,7 @@ In .conkyrc replace `own_window_type override` with
 
 ### Improve font rendering (for example of Calibri)
 
-If it doesn't exist, create `~/.fonts.conf`. Content:
+If it doesn't exist, create `~/.config/fontconfig/fonts.conf`. Content:
 
     <fontconfig>
         <match target="font">
