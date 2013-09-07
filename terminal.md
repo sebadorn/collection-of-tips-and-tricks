@@ -44,7 +44,7 @@ Source: [stackoverflow.com/a/1957576](http://stackoverflow.com/a/1957576)
 
 ### Rename many files
 
-    rename 's/<regex>/<replacement>/<flags>' *.<file_ext>
+    rename 's/<regex>/<replacement>/<flags>' \*.<file_ext>
 
 With `-n` you can first make a test run to see the would-be result.  
 Source: [tips.webdesign10.com/how-to-bulk-rename-files-in-linux-in-the-terminal](http://tips.webdesign10.com/how-to-bulk-rename-files-in-linux-in-the-terminal)
@@ -71,3 +71,8 @@ Source: [superuser.com/a/191714](http://superuser.com/a/191714)
 
 Source: [askubuntu.com/a/306268](http://askubuntu.com/a/306268)
 
+### Rename all files to lowercase
+
+    rename 'y/A-Z/a-z/' \*
+
+Source: [stackoverflow.com/a/8167105/915570](http://stackoverflow.com/a/8167105/915570)
