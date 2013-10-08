@@ -76,3 +76,11 @@ Source: [askubuntu.com/a/306268](http://askubuntu.com/a/306268)
     rename 'y/A-Z/a-z/' *
 
 Source: [stackoverflow.com/a/8167105/915570](http://stackoverflow.com/a/8167105/915570)
+
+### Login not working, bounces back to login screen (login loop)
+
+    sudo chown $USER:$USER .Xauthority
+
+Or just rename/delete it:
+
+    mv .Xauthority .XauthorityBack
