@@ -40,3 +40,11 @@ Source: [vemod.net/typesetting-units-in-latex](http://vemod.net/typesetting-unit
 
 Source: [anthony.liekens.net/index.php/LaTeX/DegreesNotation](http://anthony.liekens.net/index.php/LaTeX/DegreesNotation)
 
+### Bold in math mode
+
+    \usepackage{amsmath}
+    \usepackage{bm}
+    $\bm{v}$
+
+Source: [tex.stackexchange.com/a/22661](http://tex.stackexchange.com/a/22661)
+
