@@ -26,3 +26,9 @@ If it doesn't exist, create `~/.config/fontconfig/fonts.conf`. Content:
 
 Source: [cbalnuweit.de/?p=54](http://cbalnuweit.de/?p=54)
 
+### Use amazon's .amz files for downloads
+
+    clamz *.amz
+
+Downloads the songs into the current directory.
+
