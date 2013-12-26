@@ -32,3 +32,7 @@ Source: [cbalnuweit.de/?p=54](http://cbalnuweit.de/?p=54)
 
 Downloads the songs into the current directory.
 
+### GNOME 3: Change desktop background zoom level etc.
+
+The option can be found under `org.gnome.desktop.background.picture-options` (use `dconf-editor`).
+
