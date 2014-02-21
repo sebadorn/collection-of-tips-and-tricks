@@ -48,3 +48,14 @@ Source: [anthony.liekens.net/index.php/LaTeX/DegreesNotation](http://anthony.lie
 
 Source: [tex.stackexchange.com/a/22661](http://tex.stackexchange.com/a/22661)
 
+### Install a font from CTAN
+
+(Nachträglich aus Erinnerung aufgeschrieben und ich hatte einige Probleme/Fehlversuche, es könnte also nicht ganz stimmen.)
+
+1. Find the font you want, for example [Inconsolata](http://www.ctan.org/tex-archive/fonts/inconsolata/).
+2. Download the TDS archive.
+3. Platziere es in `/usr/share/texmf/` und entpacke es (`unzip`).
+4. `mktexlsr` und `updmap --enable Map=zi4.map` bzw. der passende Map-Name.
+
+Source: [tex.stackexchange.com/questions/145833/inconsolata-bold-on-old-ubuntu-precise-texlive](https://tex.stackexchange.com/questions/145833/inconsolata-bold-on-old-ubuntu-precise-texlive)
+

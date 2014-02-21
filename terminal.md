@@ -84,3 +84,12 @@ Source: [stackoverflow.com/a/8167105/915570](http://stackoverflow.com/a/8167105/
 Or just rename/delete it:
 
     mv .Xauthority .XauthorityBack
+
+### gvfsd-metadata causing 100% CPU and constant IO operations
+
+If you notice many IO operations, you can find the culprit with the tool `iotop`. In this case it was the process `gvfsd-metadata`.
+
+    rm -r ~/.local/share/gvfs-metadata
+
+Source: [ubuntuforums.org/showthread.php?t=1421580](http://ubuntuforums.org/showthread.php?t=1421580)
+
