@@ -50,7 +50,7 @@ Source: [tex.stackexchange.com/a/22661](http://tex.stackexchange.com/a/22661)
 
 ### Install a font from CTAN
 
-(Nachträglich aus Erinnerung aufgeschrieben und ich hatte einige Probleme/Fehlversuche, es könnte also nicht ganz stimmen.)
+(Written later, after it finally worked. Had some problems on the way, so it may miss something.)
 
 1. Find the font you want, for example [Inconsolata](http://www.ctan.org/tex-archive/fonts/inconsolata/).
 2. Download the TDS archive.
