@@ -59,3 +59,14 @@ Source: [tex.stackexchange.com/a/22661](http://tex.stackexchange.com/a/22661)
 
 Source: [tex.stackexchange.com/questions/145833/inconsolata-bold-on-old-ubuntu-precise-texlive](https://tex.stackexchange.com/questions/145833/inconsolata-bold-on-old-ubuntu-precise-texlive)
 
+### Vertically center content on a page
+
+    \vspace*{\fill}
+    Lorem ipsum dolor sit amet.
+    \vspace*{\fill}
+
+### Make URLs in a PDF clickable and add an internal ToC to the PDF
+
+    \usepackage[hidelinks]{hyperref}
+
+The `hidelinks` option makes the links look like before, without being colored or having a border around them. To create a working link use the `\url{}` command.

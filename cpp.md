@@ -16,9 +16,8 @@ Strings are a part of the standard library and can simply be used by `std::strin
 Many possible reasons.
 
 * A declared, but unimplemented method. Could be the destructor, for example.
-* *[tbc]*
 
 ### Stupid mistakes to look out for
 
 * Using the same variable name for a class member and function parameter.
-
+* Using an unsigned data type, counting down, and then checking for `< 0` (which will never happen).

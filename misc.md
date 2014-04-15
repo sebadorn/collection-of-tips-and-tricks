@@ -36,3 +36,9 @@ Downloads the songs into the current directory.
 
 The option can be found under `org.gnome.desktop.background.picture-options` (use `dconf-editor`).
 
+### .desktop files
+
+To create or edit application startup files, look in the following directories:
+
+    ~/.local/share/applications/
+    /usr/share/applications/
