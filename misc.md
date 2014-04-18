@@ -42,3 +42,17 @@ To create or edit application startup files, look in the following directories:
 
     ~/.local/share/applications/
     /usr/share/applications/
+
+### Flash loses focus when in fullscreen and the window vanishes
+
+Install `devilspie` and create `~/.devilspie/flash-fullscreen-firefox.ds` with the content:
+
+    (if (is (application_name) "plugin-container")
+        (begin
+            (focus)
+        )
+    )
+
+Add `devilspie` to the autostart.
+
+Source: [askubuntu.com/questions/305417/adobe-flash-plugin-no-full-screen](http://askubuntu.com/questions/305417/adobe-flash-plugin-no-full-screen)
