@@ -1,16 +1,20 @@
 ## LaTeX notes
 
+
 ### German hyphenation
 
     sudo apt-get install texlive-lang-german
+
 
 ### Small non-breaking space
 
     \,
 
+
 ### Non-breaking hyphen
 
     \mbox{-}
+
 
 ### Mixing one-column and two-column
 
@@ -19,19 +23,23 @@
     ...
     \end{multicol}
 
+
 ### Page margins
 
     \usepackage[a4paper,lmargin={2.6cm},rmargin={2.6cm},tmargin={2.6cm},bmargin={2.6cm}]{geometry}
 
+
 ### Hyphenation breaking in URLs
 
     \usepackage[hyphens]{url}
+
 
 ### Units in math equations
 
     \newcommand{\unit}[1]{\ensuremath{\,\mathrm{#1}}}
 
 Source: [vemod.net/typesetting-units-in-latex](http://vemod.net/typesetting-units-in-latex)
+
 
 ### Degree symbol
 
@@ -40,6 +48,7 @@ Source: [vemod.net/typesetting-units-in-latex](http://vemod.net/typesetting-unit
 
 Source: [anthony.liekens.net/index.php/LaTeX/DegreesNotation](http://anthony.liekens.net/index.php/LaTeX/DegreesNotation)
 
+
 ### Bold in math mode
 
     \usepackage{amsmath}
@@ -47,6 +56,7 @@ Source: [anthony.liekens.net/index.php/LaTeX/DegreesNotation](http://anthony.lie
     $\bm{v}$
 
 Source: [tex.stackexchange.com/a/22661](http://tex.stackexchange.com/a/22661)
+
 
 ### Install a font from CTAN
 
@@ -59,14 +69,23 @@ Source: [tex.stackexchange.com/a/22661](http://tex.stackexchange.com/a/22661)
 
 Source: [tex.stackexchange.com/questions/145833/inconsolata-bold-on-old-ubuntu-precise-texlive](https://tex.stackexchange.com/questions/145833/inconsolata-bold-on-old-ubuntu-precise-texlive)
 
+
 ### Vertically center content on a page
 
     \vspace*{\fill}
     Lorem ipsum dolor sit amet.
     \vspace*{\fill}
 
+
 ### Make URLs in a PDF clickable and add an internal ToC to the PDF
 
     \usepackage[hidelinks]{hyperref}
 
 The `hidelinks` option makes the links look like before, without being colored or having a border around them. To create a working link use the `\url{}` command.
+
+
+### Insert completely empty page
+
+    \newpage\null\thispagestyle{empty}\newpage
+
+Source: [tex.stackexchange.com/a/34935](http://tex.stackexchange.com/a/34935)
