@@ -104,3 +104,7 @@ If you notice many IO operations, you can find the culprit with the tool `iotop`
 
 Source: [ubuntuforums.org/showthread.php?t=1421580](http://ubuntuforums.org/showthread.php?t=1421580)
 
+
+### Re-generate failed thumbnails in Ubuntu
+
+    rm -rf $HOME/.cache/thumbnails/fail/*
