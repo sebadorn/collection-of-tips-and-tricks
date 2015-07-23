@@ -16,8 +16,10 @@ cd $(dirname "$0")
 
 SS="$3"
 LEN="$4"
+
 SCALE_W=-1
 SCALE_H=480
+THREADS=2
 
 # Start point: default to start of video.
 if [ -z "$3"]; then
@@ -29,4 +31,4 @@ if [ -z "$4" ]; then
 	LEN=$(avprobe "$1" 2>&1 | grep 'Duration' | awk '{print $2}' | sed s/,//)
 fi
 
-avconv -i "$1" -threads 2 -vf scale=$SCALE_W:$SCALE_H -c:v libvpx -qmin 0 -qmax 50 -crf 10 -b:v 2M -c:a libvorbis -q:a 4 -ss "$3" -t "$4" "$2"
+avconv -i "$1" -threads $THREADS -vf scale=$SCALE_W:$SCALE_H -c:v libvpx -qmin 0 -qmax 50 -crf 10 -b:v 2M -c:a libvorbis -q:a 4 -ss "$3" -t "$4" "$2"
