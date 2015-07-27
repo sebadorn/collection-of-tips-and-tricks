@@ -67,7 +67,7 @@ fi
 
 "$FFMPEG" -ss "$SS" -i "$1" \
 	-threads $THREADS \
-	-vf "$SCALE" -sws_flags lanczos \
+	-vf "$SCALE" -sws_flags lanczos+accurate_rnd+full_chroma_int \
 	-c:v libvpx -qmin 4 -qmax 50 -crf 20 -b:v 1M \
 	-c:a libvorbis -q:a 4 \
 	-sn \
