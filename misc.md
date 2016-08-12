@@ -68,3 +68,17 @@ Source: [askubuntu.com/questions/305417/adobe-flash-plugin-no-full-screen](http:
 ### Overlay scrollbars in Firefox
 
 Install the add-on *Stylish* and use [this userstyle](http://userstyles.org/styles/80900/fake-ubuntu-unity-overlay-scrollbar).
+
+
+### Improve startup times
+
+Find slow-downs: `systemd-analyze blame` and `systemd-analyze plot > plot.html`
+
+Services can be disabled with: `systemctl disable ...`
+
+Those should be save (in my case):
+
+    systemcl disable apt-daily.timer
+    systemcl disable bluetooth.service
+    systemcl disable click-system-hooks.service
+    systemcl disable NetworkManager-wait-online.service

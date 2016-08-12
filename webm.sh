@@ -44,6 +44,7 @@ if [ -z "$4" ]; then
 fi
 
 # Crop: don't scale if cropping is applied.
+# <w>:<h>:<x>:<y> in input
 
 if [ -n "$5" ]; then
 	SCALE="crop="$5""
@@ -57,6 +58,13 @@ fi
 # qmin, qmax: quantization parameters [0, 63], lower is better quality.
 
 # To remove the audio, use "-an".
+
+# To mute only a part of the video, use:
+# -af "volume=enable='between(t,<from>,<to>)':volume=0"
+# <from> and <to> are in seconds and are the positions in the output.
+
+# To fade in, use:
+# -af "afade=t=in:st=<from>:d=<len>"
 
 # To remove subtitles, use "-sn". This is recommended because
 # otherwise some applications will think the file is damaged.
