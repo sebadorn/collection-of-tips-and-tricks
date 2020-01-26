@@ -8,7 +8,7 @@ if hash ffmpeg 2>/dev/null; then
 	FFMPEG=ffmpeg
 else
 	BASEDIR=$(dirname "$0")
-	FFMPEG="$BASEDIR/ffmpeg-2.7.2-64bit-static/ffmpeg"
+	FFMPEG="$BASEDIR/ffmpeg-3.1.4-64bit-static/ffmpeg"
 fi
 
 # Converts a given video file into a WEBM of decent video quality and

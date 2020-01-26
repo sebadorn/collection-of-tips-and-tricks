@@ -82,3 +82,22 @@ Those should be save (in my case):
     systemcl disable bluetooth.service
     systemcl disable click-system-hooks.service
     systemcl disable NetworkManager-wait-online.service
+
+
+### Errors/warnings in systemd journal
+
+Get the errors with: `journalctl -b -p 3`
+
+Possible message:
+
+    lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+    lightdm: PAM adding faulty module: pam_kwallet.so
+    lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+    lightdm: PAM adding faulty module: pam_kwallet5.so
+
+Fix (but only if you don't intend on running KDE!): In the file `/etc/pam.d/lightdm` comment out the lines:
+
+    #auth optional pam_kwallet.so
+    #session optional pam_kwallet.so auto_start
+    #auth optional pam_kwallet5.so
+    #session optional pam_kwallet5.so auto_start

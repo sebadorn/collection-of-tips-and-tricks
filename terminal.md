@@ -1,4 +1,4 @@
-## Terminal notes
+## Terminal
 
 
 ### Create MD5 hash
@@ -108,3 +108,12 @@ Source: [ubuntuforums.org/showthread.php?t=1421580](http://ubuntuforums.org/show
 ### Re-generate failed thumbnails in Ubuntu
 
     rm -rf $HOME/.cache/thumbnails/fail/*
+
+
+### Update youtube-dl installed with pip
+
+    pip3 install youtube-dl
+
+or
+
+    python3 -m pip install --upgrade youtube-dl

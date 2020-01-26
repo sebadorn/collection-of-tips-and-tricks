@@ -1,0 +1,40 @@
+{
+	"color_scheme": "Packages/Agila Theme/Agila Origin Oceanic Next.tmTheme",
+	"copy_with_empty_selection": false,
+	"enable_tab_scrolling": false,
+	"file_exclude_patterns":
+	[
+		"*.zip",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.o",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.aux",
+		"*.bbl",
+		"*.blg",
+		"*.toc",
+		"moc_*.cxx*"
+	],
+	"font_face": "Source Code Pro",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"HexViewer",
+		"SideBarEnhancements",
+		"Vintage"
+	],
+	"index_files": false,
+	"soda_folder_icons": true,
+	"theme": "Agila Origin.sublime-theme"
+}
