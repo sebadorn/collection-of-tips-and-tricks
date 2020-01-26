@@ -112,8 +112,21 @@ Source: [ubuntuforums.org/showthread.php?t=1421580](http://ubuntuforums.org/show
 
 ### Update youtube-dl installed with pip
 
-    pip3 install youtube-dl
+```bash
+pip3 install youtube-dl
+```
 
 or
 
-    python3 -m pip install --upgrade youtube-dl
+```bash
+python3 -m pip install --upgrade youtube-dl
+```
+
+
+### Convert all FLAC files to MP3
+
+```bash
+for a in *.flac; do
+    ffmpeg -i "$a" -qscale:a 0 "${a[@]/%flac/mp3}"
+done
+```
