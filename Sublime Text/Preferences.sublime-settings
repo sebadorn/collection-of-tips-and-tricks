@@ -35,6 +35,9 @@
 		"Vintage"
 	],
 	"index_files": false,
-	"soda_folder_icons": true,
+	"theme_agila_sidebar_mini": true,
+	"theme_agila_compact_tab": true,
+	"theme_agila_vertical_scrollbar_thicker": true,
+	"theme_agila_horizontal_scrollbar_thicker": true,
 	"theme": "Agila Origin.sublime-theme"
 }
