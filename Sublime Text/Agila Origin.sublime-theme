@@ -1,0 +1,14 @@
+// Set a min-height for vertical and min-width for horizontal scrollbar pucks.
+// Slightly brighten the scrollbar puck color (same color as hovered tab).
+[
+	{
+		"class": "puck_control",
+		"content_margin": [5, 10],
+		"layer0.tint": [49, 78, 95]
+	},
+	{
+		"class": "puck_control",
+		"attributes": ["horizontal"],
+		"content_margin": [10, 5]
+	}
+]

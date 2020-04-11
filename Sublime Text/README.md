@@ -3,7 +3,9 @@
 ## Packages
 
 * **A File Icon**
-* **Agila Theme**
+* **Agila Theme**  
+  To set a min size for the scrollbar pucks, use the `Agila Origin.sublime-theme` file.  
+  Copy it to `~/.config/sublime-text-3/Packages/User/`.
 * **Babel**
 * **ColorPicker**
 * **DocBlockr**  
