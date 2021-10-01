@@ -1,7 +1,6 @@
 {
 	"color_scheme": "Packages/Agila Theme/Agila Origin Oceanic Next.tmTheme",
 	"copy_with_empty_selection": false,
-	"enable_tab_scrolling": false,
 	"file_exclude_patterns":
 	[
 		"*.zip",
@@ -26,18 +25,24 @@
 		"*.toc",
 		"moc_*.cxx*"
 	],
-	"font_face": "Source Code Pro",
+	"font_face": "Fira Code",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
 	"font_size": 11,
+	"hardware_acceleration": "opengl",
 	"ignored_packages":
 	[
-		"HexViewer",
-		"SideBarEnhancements",
 		"Vintage"
 	],
 	"index_files": false,
-	"theme_agila_sidebar_mini": true,
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"remember_workspace": false,
+	"theme": "Agila Origin.sublime-theme",
 	"theme_agila_compact_tab": true,
-	"theme_agila_vertical_scrollbar_thicker": true,
 	"theme_agila_horizontal_scrollbar_thicker": true,
-	"theme": "Agila Origin.sublime-theme"
+	"theme_agila_sidebar_mini": false,
+	"theme_agila_vertical_scrollbar_thicker": true,
 }
